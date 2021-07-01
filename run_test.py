@@ -23,8 +23,9 @@ suite = testloader.discover(config.case_path)
 # 通过模块名，类名
 
 # 测试报告格式
-ts = str(int(time.time()))
-file_name = 'test_result_{}.html'.format(ts)
+# ts = str(int(time.time()))
+# file_name = 'test_result_{}.html'.format(ts)
+file_name = 'test_result_api.html'
 file_path = os.path.join(config.report_path, file_name)
 
 with open(file_path, 'wb') as f:
