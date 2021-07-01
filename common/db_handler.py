@@ -12,7 +12,7 @@ import pymysql
 import yaml
 from pymysql.cursors import DictCursor
 
-from apiframework.config.setting import config
+from config.setting import config
 
 
 class DBHandler:

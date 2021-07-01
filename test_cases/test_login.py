@@ -13,14 +13,14 @@ import unittest
 
 import yaml
 
-from apiframework.common.db_handler import DBHandler
-from apiframework.common.excel_handler import ExcelHandler
-from apiframework.common.helper import generate_mobile
-from apiframework.common.logger_handler import LoggerHandler
-from apiframework.common.request_handler import RequestsHandler
-from apiframework.common.yaml_handler import yaml_data
-from apiframework.config.setting import config
-from apiframework.libs import ddt
+from common.db_handler import DBHandler
+from common.excel_handler import ExcelHandler
+from common.helper import generate_mobile
+from common.logger_handler import LoggerHandler
+from common.request_handler import RequestsHandler
+from common.yaml_handler import yaml_data
+from config.setting import config
+from libs import ddt
 
 
 # yaml 读取

@@ -11,9 +11,9 @@ author:LongNight
 import random
 import re
 
-from apiframework.common.request_handler import RequestsHandler
-from apiframework.common.yaml_handler import yaml_data
-from apiframework.config.setting import config
+from common.request_handler import RequestsHandler
+from common.yaml_handler import yaml_data
+from config.setting import config
 from jsonpath import jsonpath
 
 

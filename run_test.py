@@ -12,8 +12,8 @@ import os
 import time
 import unittest
 
-from apiframework.config.setting import config
-from apiframework.libs.HTMLTestRunner_cn2 import HTMLTestRunner
+from config.setting import config
+from libs.HTMLTestRunner_cn2 import HTMLTestRunner
 
 
 # 加载器

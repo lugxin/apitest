@@ -10,7 +10,7 @@ author:LongNight
 """
 import yaml
 
-from apiframework.config.setting import config
+from config.setting import config
 
 
 class YamlHandler:
