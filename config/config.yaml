@@ -1,0 +1,20 @@
+logger:
+  name: log
+  level: ERROR
+  file: log.txt
+
+excel:
+  file: demo.xlsx
+  sheet: login
+
+database:
+  host: '119.147.171.113'
+  port: 13306
+  user: 'zhidian'
+  password: 'zdsh123'
+  charset: 'utf8'
+  database: 'mall_csmc'
+
+user:
+  phone: '13800000001'
+  pwd: '1'
